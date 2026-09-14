@@ -1,0 +1,35 @@
+# proyecto-final-bases-datos
+Idea de negocio
+[Nombre de la Idea de Negocio / Sistema]
+##
+1. Integrantes del Equipo
+- Danyeli Daniela Diaz Ruiz  1 (6010892 / danyelidiaz191@gmail.com)
+- Laura Sofia Grajales Madrid 2 (1018237826 / laurasofia240612@gmail.com)
+##
+2. Descripción del Negocio y Justificación
+- Contexto general del problema a resolver.
+Negocio que recoja materiales reciclables en barrios y entregue puntos, descuentos o befeficios a quienes reciclen
+- Objetivo de la aplicación.
+Reducir las basuras en la calle y ayudar al medio ambiente 
+
+##
+3. Entidades Principales del Dominio
+- Mínimo 4 entidades identificadas (ej. Cliente, Producto, Venta, DetalleVenta).
+clientes,producto,provedores, beneficios
+- Breve descripción del rol de cada entidad y sus relaciones (1:N, N:M).
+
+cliente: personas encargadas de comprar lo reciclado 
+producto:lo reciclado
+provedores:empresas de compra y venta de plastico
+befeficios: personas encargadas de ayudar a cubrir las necesidades de los recolectores
+
+4. Matriz de Entornos y Conexiones
+- Motores y proveedores probados:
+- SQLite (archivo local)
+- MySQL (Aiven.io)
+- PostgreSQL (Neon.tech)
+- PostgreSQL (Render.com)
+##
+5. Instrucciones de Ejecución
+- Comando de ins talación de librerías: 'pip install peewee psycopg2-binary pymysql
+- Comando para ejecutar la aplicación: "python app.pył
